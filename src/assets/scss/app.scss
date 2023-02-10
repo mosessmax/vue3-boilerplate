@@ -1,4 +1,10 @@
-@import "_variables.scss";
 @import "base.scss";
-@import "grid.scss";
-@import "flex.scss";
+
+// Core files
+@import "core/_reset";
+@import "core/_typography";
+@import "core/_variables";
+
+// Layout files
+@import "layout/flex";
+@import "layout/grid.scss";
