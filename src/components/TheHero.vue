@@ -1,5 +1,6 @@
 <template>
   <div>Hello Crackhead, this ia the home page</div>
+  <RouterLink to="/about">Click here to go to About</RouterLink>
 </template>
 
 <script lang="ts">
